@@ -76,7 +76,8 @@ body {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-link::after{
+.navigation-link:hover::after, 
+.navigation-link:focus::after {
   content: "";
   position: absolute;
   left: 0;
